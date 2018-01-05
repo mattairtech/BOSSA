@@ -172,9 +172,20 @@
 #define ATSAMD21E16A_FLASH_PAGES             (1024ul)
 #define ATSAMD21E16A_FLASH_PLANES            (1ul)
 #define ATSAMD21E16A_FLASH_LOCK_REGIONS      (16ul)
-#define ATSAMD21E16A_BUFFER_ADDR             (0x20001000ul)
+#define ATSAMD21E16A_BUFFER_ADDR             (0x20000800ul)
 #define ATSAMD21E16A_STACK_ADDR              (0x20002000ul)
 #define ATSAMD21E16A_NVMCTRL_BASE            (0x41004000ul)
+
+#define ATSAMD21E16B_NAME                    "ATSAMD21E16B"
+#define ATSAMD21E16B_CHIPID                  (0x10010026ul)  // DIE & REV bitfields masked in Samba::chipId()
+#define ATSAMD21E16B_FLASH_BASE              (0x00000000ul + ATSAMD_BOOTLOADER_SIZE)
+#define ATSAMD21E16B_FLASH_PAGE_SIZE         (64ul)
+#define ATSAMD21E16B_FLASH_PAGES             (1024ul)
+#define ATSAMD21E16B_FLASH_PLANES            (1ul)
+#define ATSAMD21E16B_FLASH_LOCK_REGIONS      (16ul)
+#define ATSAMD21E16B_BUFFER_ADDR             (0x20000800ul)
+#define ATSAMD21E16B_STACK_ADDR              (0x20002000ul)
+#define ATSAMD21E16B_NVMCTRL_BASE            (0x41004000ul)
 
 #define ATSAMD21E15A_NAME                    "ATSAMD21E15A"
 #define ATSAMD21E15A_CHIPID                  (0x1001000dul)  // DIE & REV bitfields masked in Samba::chipId()

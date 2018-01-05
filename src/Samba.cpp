@@ -193,17 +193,18 @@ Samba::init()
 		    case ATSAMD21E18A_CHIPID:
 		    case ATSAMD21E17A_CHIPID:
 		    case ATSAMD21E16A_CHIPID:
-                    case ATSAMD21E15A_CHIPID:
+		    case ATSAMD21E16B_CHIPID:
+			case ATSAMD21E15A_CHIPID:
 
-                    case ATSAMD51G18A_CHIPID:
-                    case ATSAMD51G19A_CHIPID:
-                    case ATSAMD51J18A_CHIPID:
-                    case ATSAMD51J19A_CHIPID:
-                    case ATSAMD51J20A_CHIPID:
-                    case ATSAMD51N19A_CHIPID:
-                    case ATSAMD51N20A_CHIPID:
-                    case ATSAMD51P19A_CHIPID:
-                    case ATSAMD51P20A_CHIPID:
+			case ATSAMD51G18A_CHIPID:
+			case ATSAMD51G19A_CHIPID:
+			case ATSAMD51J18A_CHIPID:
+			case ATSAMD51J19A_CHIPID:
+			case ATSAMD51J20A_CHIPID:
+			case ATSAMD51N19A_CHIPID:
+			case ATSAMD51N20A_CHIPID:
+			case ATSAMD51P19A_CHIPID:
+			case ATSAMD51P20A_CHIPID:
 			    
 		    case ATSAML21J18B_CHIPID:
 		    case ATSAML21J17B_CHIPID:
