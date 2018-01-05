@@ -3,7 +3,7 @@
 #
 # Version
 #
-VERSION=1.7.1-mattairtech-2-Tonetag
+VERSION=1.7.1-mattairtech-2
 WXVERSION=3.0
 
 #
